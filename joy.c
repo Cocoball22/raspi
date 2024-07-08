@@ -43,7 +43,7 @@ int main()
 
         // Move the cursor and print
         gotoxy(v1, v2);
-        printf("(%d,%d)",v2,v1);  // Character to display
+        printf("0");  // Character to display
         fflush(stdout);  // Force the output buffer to flush
 
         // Short delay
